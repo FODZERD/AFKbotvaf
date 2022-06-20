@@ -29,7 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("&aKích hoạt bot thành công!");
 });
 
 bot.on('time', function(time) {
